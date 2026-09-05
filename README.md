@@ -10,7 +10,7 @@ A collection of practical **Arduino embedded systems and IoT projects** develope
 A basic Arduino project demonstrating LED control using digital output.
 Wokwi Link:
 Downloaded from https://wokwi.com/projects/473947640684541953
-![Light Blinking](images/Light-Blinking.png)
+![Light Blinking](Arduino images/Light Blinking.PNG)
 
 ### 2. 🔘 Light Controlling Through Switch
 Controls an LED using a push-button switch and Arduino digital input.\

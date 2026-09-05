@@ -11,7 +11,7 @@ A basic Arduino project demonstrating LED control using digital output.
 Wokwi Link:
 Downloaded from https://wokwi.com/projects/473947640684541953
 <p align="center">
-  <img src="images/led-blinking.png" width="600">
+  <img src="Arduino images/Light Blinking.PNG" width="600">
 </p>
 
 ### 2. 🔘 Light Controlling Through Switch

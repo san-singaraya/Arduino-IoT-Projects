@@ -7,7 +7,7 @@ A collection of practical **Arduino embedded systems and IoT projects** develope
 ## 🚀 Projects
 
 ### 1. 💡 Light Blinking
-A basic Arduino project demonstrating LED control using digital output.\n
+A basic Arduino project demonstrating LED control using digital output.
 Wokwi Link:
 Downloaded from https://wokwi.com/projects/473947640684541953
 ![Light Blinking](images/Light-Blinking.png)

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "author": "Singaraya Santhosh Kumar",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 39, "left": 57, "attrs": {} },
+    { "type": "wokwi-led", "id": "led1", "top": -61.2, "left": -73, "attrs": { "color": "red" } }
+  ],
+  "connections": [
+    [ "led1:A", "uno:2", "green", [ "v19.2", "h345.6" ] ],
+    [ "led1:C", "uno:GND.1", "green", [ "v48", "h230.8" ] ]
+  ],
+  "dependencies": {}
+}

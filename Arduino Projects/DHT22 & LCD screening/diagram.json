@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "author": "Uri Shaked",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 202.2, "left": 18.6, "attrs": {} },
+    { "type": "wokwi-lcd1602", "id": "lcd", "top": 3.43, "left": 35.2, "attrs": {} },
+    { "type": "wokwi-dht22", "id": "dht1", "top": 38.7, "left": -101.4, "attrs": {} }
+  ],
+  "connections": [
+    [ "dht1:VCC", "uno:5V", "red", [ "v316.8", "h105.6" ] ],
+    [ "dht1:SDA", "uno:6", "green", [ "v153.6", "h307.3" ] ],
+    [ "dht1:GND", "uno:GND.2", "black", [ "v288", "h249.6" ] ],
+    [ "lcd:RS", "uno:12", "green", [ "v48", "h57.9" ] ],
+    [ "lcd:E", "uno:11", "green", [ "v38.4", "h48" ] ],
+    [ "lcd:D4", "uno:10", "purple", [ "v38.4", "h9.6" ] ],
+    [ "lcd:D5", "uno:9", "yellow", [ "v28.8", "h9.7" ] ],
+    [ "lcd:D6", "uno:8", "orange", [ "v19.2", "h9.8" ] ],
+    [ "lcd:D7", "uno:7", "#8f4814", [ "v9.6", "h9.9" ] ],
+    [ "lcd:VSS", "uno:GND.1", "black", [ "v57.6", "h67.2" ] ],
+    [ "lcd:VDD", "uno:5V", "red", [ "v38.4", "h-163.1", "v297.6", "h268.8" ] ],
+    [ "lcd:V0", "uno:GND.1", "black", [ "v57.6", "h38.1" ] ],
+    [ "lcd:RW", "uno:GND.1", "black", [ "v57.6", "h28.7" ] ],
+    [ "lcd:K", "uno:GND.1", "black", [ "v57.6", "h-96" ] ],
+    [ "lcd:A", "uno:5V", "red", [ "v38.4", "h-288.1", "v297.6", "h268.8" ] ]
+  ],
+  "dependencies": {}
+}

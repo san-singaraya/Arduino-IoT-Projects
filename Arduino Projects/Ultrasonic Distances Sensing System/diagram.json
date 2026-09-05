@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "author": "Singaraya Santhosh Kumar",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 77.4, "left": 114.6, "attrs": {} },
+    { "type": "wokwi-hc-sr04", "id": "ultrasonic1", "top": -56.1, "left": -167.3, "attrs": {} }
+  ],
+  "connections": [
+    [ "ultrasonic1:GND", "uno:GND.1", "black", [ "v19.2", "h296.4" ] ],
+    [ "ultrasonic1:VCC", "uno:5V", "red", [ "v259.2", "h374.4" ] ],
+    [ "ultrasonic1:TRIG", "uno:9", "green", [ "v144", "h354.8" ] ],
+    [ "ultrasonic1:ECHO", "uno:10", "yellow", [ "v124.8", "h335.2" ] ]
+  ],
+  "dependencies": {}
+}

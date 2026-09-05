@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0.6, "left": 37.8, "attrs": {} },
+    { "type": "wokwi-led", "id": "led1", "top": -90, "left": -73, "attrs": { "color": "purple" } },
+    { "type": "wokwi-slide-switch", "id": "sw1", "top": 81.2, "left": -150.5, "attrs": {} }
+  ],
+  "connections": [
+    [ "led1:A", "uno:3", "green", [ "v9.6", "h307.2" ] ],
+    [ "sw1:3", "uno:2", "green", [ "v124.8", "h403.4" ] ],
+    [ "sw1:1", "uno:GND.2", "green", [ "v153.6", "h345.6" ] ],
+    [ "led1:C", "uno:GND.1", "green", [ "v38.4", "h211.6" ] ]
+  ],
+  "dependencies": {}
+}

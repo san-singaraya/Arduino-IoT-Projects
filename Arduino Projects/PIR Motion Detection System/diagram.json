@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "author": "Singaraya Santhosh Kumar",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 58.2, "left": 85.8, "attrs": {} },
+    { "type": "wokwi-pir-motion-sensor", "id": "pir1", "top": -34.4, "left": -74.58, "attrs": {} }
+  ],
+  "connections": [
+    [ "pir1:GND", "uno:GND.1", "black", [ "v48", "h220.54" ] ],
+    [ "pir1:OUT", "uno:7", "green", [ "v86.4", "h316.66" ] ],
+    [ "pir1:VCC", "uno:5V", "red", [ "v220.8", "h278.4" ] ]
+  ],
+  "dependencies": {}
+}

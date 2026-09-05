@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "author": "Braylen Hammond",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 148.7, "left": -165.32, "attrs": {} },
+    { "type": "wokwi-", "id": "matrix1", "top": -9, "left": -155.76, "attrs": { "chain": "1" } },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd1",
+      "top": -11.54,
+      "left": -132.06,
+      "attrs": { "pins": "i2c" }
+    }
+  ],
+  "connections": [
+    [ "lcd1:GND", "uno:GND.1", "black", [ "h-26.46", "v123.5", "h106.97" ] ],
+    [ "lcd1:VCC", "uno:5V", "red", [ "h-31.29", "v318.28", "h155.97" ] ],
+    [ "lcd1:SDA", "uno:A4", "green", [ "h-16.1", "v97.6", "h269.83", "v185.64", "h-45.55" ] ],
+    [ "lcd1:SCL", "uno:A5", "green", [ "h-11.27", "v82.58", "h273.97", "v200.82" ] ]
+  ],
+  "serialMonitor": { "display": "auto", "newline": "lf" },
+  "dependencies": {}
+}
